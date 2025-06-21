@@ -19,5 +19,18 @@
 
 /* tablet */
 
+@media screen and (min-width: 768px) {
+    #topbar{
+        justify-content: flex-start;
+    }
+
+    .container h2{
+        font-size: 35px;
+    }
+
+    .container h2::after{
+        content: "(Dolce Tradizionale)";
+    }
+}
 
 /* smartphone */
