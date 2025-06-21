@@ -1,1 +1,14 @@
 /* Soluzione qui */
+
+/* desktop */
+
+@media screen and (min-widht: 992px) {
+    #topbar{
+        justify-content: flex-start;
+    }
+}
+
+/* tablet */
+
+
+/* smartphone */
