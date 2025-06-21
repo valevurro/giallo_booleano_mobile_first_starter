@@ -2,10 +2,19 @@
 
 /* desktop */
 
-@media screen and (min-widht: 992px) {
+@media screen and (min-width: 992px) {
     #topbar{
         justify-content: flex-start;
     }
+
+    .container h2{
+        font-size: 40px;
+    }
+
+    .container h2::after{
+        content: "(Dolce Tradizionale)";
+    }
+
 }
 
 /* tablet */
